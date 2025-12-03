@@ -6,7 +6,7 @@ import HomePage from "./components//HomePage"; // A placeholder home page
 import SignupComponent from "./components/SignupComponent";
 import LoginPage from "./components/LoginPage";
 import ProductListWithoutVercel from "./components/ProductListWithoutVercel";
-import Try from "./components/try";
+// import Try from "./components/try";
 
 function App() {
   return (
