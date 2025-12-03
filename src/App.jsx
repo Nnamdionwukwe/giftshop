@@ -6,13 +6,13 @@ import HomePage from "./components//HomePage"; // A placeholder home page
 import SignupComponent from "./components/SignupComponent";
 import LoginPage from "./components/LoginPage";
 import ProductListWithoutVercel from "./components/ProductListWithoutVercel";
-// import Try from "./components/try";
+import Try from "./components/try";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<Try />} />
         <Route path="/products" element={<ProductListWithoutVercel />} />
         <Route path="/signup" element={<SignupComponent />} />
         <Route path="/login" element={<LoginPage />} />
